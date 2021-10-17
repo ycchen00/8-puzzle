@@ -2,13 +2,52 @@
 <p>
 </p>
 
-> Solve 8-puzzle using search algorithms, including BFS, DFS, A*, IDA* in python
+> Solve 8-puzzle using search algorithms, including BFS, DFS, A*, IDA* in python. The output of results will be written into a csv file.
+> bfs (Breadth-First Search)
+> dfs (Depth-First Search)
+> ast (A-Star Search)
+> ida (Iterative-Deepening-ΑStar Search) 
 
 ## Usage
 
-```sh
-Run the main function in the ipynb to test. You can change the dir of the puzzles in ./SlidingBlocks/examples/
+Run the main function in the ipynb or the py to test. You can change the dir of the puzzles in .src/SlidingBlocks/examples/
+
+You change the algorithms and heuristic functions (0,1,2)
+
+Part of the output:
+```text
+----------------------------------
+Implementing BFS
+----------------------------------
+Read the file 3x3_7
+----------------------------------
+It is a 3 X 3 sliding-tile puzzle
+----------------------------------
+The initial state is  [2, 5, 4, 0, 3, 1, 6, 8, 7]
+----------------------------------
+Starting time is  2021-09-26 17:58:59
+----------------------------------
+Ending time is  2021-09-26 17:58:59
+----------------------------------
+A puzzle effectively solved
+----------------------------------
 ```
+
+Puzzle file example: 
+```text
+3
+1 2 5
+3 4 8
+6 7 0
+AStar steps: 4
+```
+## Document
+
+
+## References
+- [neighthan/teaching](https://github.com/neighthan/teaching/tree/8e5eaf27d03a7b7f899f5b0f36ec0d938b6bef37)
+- [speix/8-puzzle-solver: Implemented BFS, DFS, A* and IDA* to solve the n-puzzle problem](https://github.com/speix/8-puzzle-solver)
+- [KodeWil/Sliding-Block-Puzzle-Solver-A_Star: Sliding Block Puzzle solver using A* algorithm to sort the tiles and digital image processing to find the correct position of them.](https://github.com/KodeWil/Sliding-Block-Puzzle-Solver-A_Star)
 
 ## Author
 
@@ -16,7 +55,7 @@ Run the main function in the ipynb to test. You can change the dir of the puzzle
 
 * Website: https://ycchen00.github.io/
 * Github: [@ycchen00](https://github.com/ycchen00)
-* LinkedIn: [@ychen306@ur.rochester.edu](https://linkedin.com/in/ychen306@ur.rochester.edu)
+* LinkedIn: [yuchi-chen](https://www.linkedin.com/in/yuchi-chen/)
 
 ## Show your support
 
