@@ -2,10 +2,10 @@
 <p>
 </p>
 
-> Solve 8-puzzle using search algorithms, including BFS, DFS, A*, IDA* in python. The output of results will be written into a csv file.
-> bfs (Breadth-First Search)
-> dfs (Depth-First Search)
-> ast (A-Star Search)
+> Solve 8-puzzle using search algorithms, including BFS, DFS, A*, IDA* in python. The output of results will be written into a csv file.  
+> bfs (Breadth-First Search)  
+> dfs (Depth-First Search)  
+> ast (A-Star Search)  
 > ida (Iterative-Deepening-ΑStar Search) 
 
 ## Usage
