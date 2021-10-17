@@ -42,7 +42,7 @@ Puzzle file example:
 AStar steps: 4
 ```
 ## Document
-
+[writeup](https://github.com/ycchen00/8-puzzle/blob/master/writeup.pdf)
 
 ## References
 - [neighthan/teaching](https://github.com/neighthan/teaching/tree/8e5eaf27d03a7b7f899f5b0f36ec0d938b6bef37)
